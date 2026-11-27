@@ -1,14 +1,14 @@
 def add_numbers(num1, num2):
 	# TODO: 足し算の実装
-	return None
+	return num1 + num2
 
 def multiply_numbers(num1, num2):
 	# TODO: 掛け算の実装
-	return None
+	return num1 * num2
 
 def subtract_numbers(num1, num2):
 	# TODO: 引き算の実装
-	return None
+	return num1 - num2
 
 def divide_numbers(num1, num2):
 	# TODO: 割り算の実装
@@ -28,7 +28,7 @@ def calcuate(choice, num1, num2):
 	if choice == '1':
 		result = add_numbers(num1, num2)
 		print(f"{num1} + {num2} = {result}")
-	elif choice == 2:
+	elif choice == '2':
 		result = multiply_numbers(num1, num2)
 		print(f"{num1} * {num2} = {result}")
 	elif choice == '3':
